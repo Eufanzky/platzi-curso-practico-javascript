@@ -43,7 +43,7 @@ html {
 .main-box{
     width: 80vw;
     max-width: 500px;
-    height: 500px;
+    height: 605px;
     background-color: #FF4E00;
     display: flex;
     flex-direction: column;
