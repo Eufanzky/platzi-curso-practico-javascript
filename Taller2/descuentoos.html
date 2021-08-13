@@ -5,39 +5,49 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Taller #2</title>
+    <link rel="stylesheet" href="./descuentos.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=MonteCarlo&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=MonteCarlo&family=Source+Sans+Pro:wght@700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
-        <h1>Porcentajes y descuentos</h1>
+    <header class="header">
+        <h1 class="header__h1">Porcentajes y descuentos</h1>
     </header>
-    <main>
-        <h2>Calcula el precio a pagar de tus porductos con descuento</h2>
-        <form>
-            <label for="InputPrice">
+    <main class="main">
+        <h2 class="main__h2">Calcula el precio a pagar de tus porductos con descuento</h2>
+        <form class="main-form">
+            <label class="main-form__label" for="InputPrice">
                 <span>Escribe el precio de tu producto</span>
                 <input id="InputPrice" type="number">
             </label>
 
-            <label for="InputDiscount">
+            <label class="main-form__label" for="InputDiscount">
                 <span>Escribe el descuento</span>
                 <input id="InputDiscount" type="number">
             </label>
 
-            <label for="InputDiscount">
+            <label class="main-form__label" for="InputDiscount">
                 <span>Escribe el descuento del cupón</span>
                 <input id="InputCoupon" type="number">
             </label>
 
-            <button type="button" onclick="mostrarDescuento()">
+            <button class="main-form__button" type="button" onclick="mostrarDescuento()">
                 Calcular el precio con descuento
             </button>
             
 
-            <p id="ResultP"></p>
+            <p class="p1" id="ResultP1"></p>
+            <p class="p1" id="ResultP2"></p>
         </form>
     </main>
-    <footer>
-
+    <footer class="footer">
+        <span class="footer__text">About</span>
+        <span class="footer__text">Donations</span>
+        <span class="footer__text">Terms of service</span>
     </footer>
     <script src="./descuentos.js"></script>
 </body>
