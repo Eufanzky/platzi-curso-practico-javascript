@@ -8,3 +8,10 @@
 - Segundo paso: Implementar las fórmulas en JavaScript
 - Tercer paso: Crear funciones 
 - Cuarto paso: Integra JavaScript con HTML
+
+## Taller #2: Precios y descuentos
+
+- Primer paso: Definir las fórmulas
+- Segundo paso: Implementar las fórmulas en JavaScript
+- Tercer paso: Crear funciones 
+- Cuarto paso: Integra JavaScript con HTML
