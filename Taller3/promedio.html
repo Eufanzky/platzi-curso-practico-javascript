@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./promedio.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Roboto+Mono:wght@600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <h1 class="header__h1">Promedio Mediana y Moda</h1>
+    </header>
+    <main class="main">
+        <section class="main-section">
+            <h2 class="main-section__title">Promedio</h2>
+            <form class="main-section__forms">
+                <label class="labels" for="inputPromedio">
+                    <span>Introduce una lista de números</span>
+                    <input id ="inputPromedio" type="text">
+                </label>
+                <button class="botones" type="button" onclick="promedio()">Calcular</button>
+                <p class="shows" id="show1"></p>
+            </form>
+        </section>
+        <section class="main-section">
+            <h2 class="main-section__title">Mediana</h2>
+            <form class="main-section__forms">
+                <label class="labels" for="inputMediana">
+                    <span>Introduce una lista de números</span>
+                    <input id ="inputMediana" type="text">
+                </label>
+                <button class="botones" type="button" onclick="mediana()">Calcular</button>
+                <p class="shows" id="show2"></p>
+            </form>
+        </section>
+        <section class="main-section">
+            <h2 class="main-section__title">Moda</h2>
+            <form class="main-section__forms">
+                <label class="labels" for="inputModa">
+                    <span>Introduce una lista de números</span>
+                    <input id ="inputModa" type="text">
+                </label>
+                <button class="botones" type="button" onclick="moda()">Calcular</button>
+                <p class="shows" id="show3"></p>
+            </form>
+        </section>
+    </main>
+    <footer class="footer">
+
+    </footer>
+    <script src="./promedio.js"></script>
+</body>
+</html>
