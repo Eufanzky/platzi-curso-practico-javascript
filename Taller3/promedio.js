@@ -74,6 +74,17 @@ function calcularModa(lista3) {
     return moda[0];
 }
 
+//PROMEDIO EXTRA
+//MEDIA ARMÓNICA
+function calcularMediaArmonica(lista4) {
+    let sumaDeLista = 0;
+    for (let i = 0; i < lista4.length; i++){
+        sumaDeLista = sumaDeLista + (1 / lista4[i]);
+    }
+    const resultado = 1 / sumaDeLista; 
+    return resultado;
+}
+
 
 //BOTONES
 function promedio() {
@@ -107,4 +118,15 @@ function moda() {
     const resultado = calcularModa(listaMod);
     const show3 = document.getElementById("show3");
     show3.innerText = "La moda de la lista es: " + resultado;
+}
+
+function mediaArmonica(){
+    const listaMediaArmonica = document.getElementById("inputMediaArmonica");
+    const listaMedArmo = listaMediaArmonica.value.split(',');
+    for(let i = 0; i < listaMedArmo.length; i++){
+        listaMedArmo[i] = parseInt(listaMedArmo[i]);
+    }
+    const resultado = calcularMediaArmonica(listaMedArmo);
+    const show4 = document.getElementById("show4");
+    show4.innerText = "La media armónica de la lista es: " + resultado.toFixed(2);
 }
