@@ -8,6 +8,42 @@ html {
     font-size: 63.5%;
 }
 
+/*HEADER*/
+.i-header {
+    width: 100vw;
+    height: 200px;
+    background-color: #BF3100;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.i-header__title{
+    font-size: 5rem;
+}
+
+.i-header-nav-ul{
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 2rem;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.i-header-nav-ul li{
+    margin: 6px 10px;
+    list-style: none;   
+}
+.i-header-nav-ul a{
+    text-decoration: none;
+    color: #123C69;
+}
+.i-header-nav-ul a:hover{
+    text-decoration: underline;
+}
+
+
 .header{
     background-color: #BF3100;
     color: white;

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inversión</title>
+    <link rel="stylesheet" href="./extra.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:wght@300&family=Bree+Serif&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="i-header">
+        <h1 class="i-header__title">JavaScript</h1>
+        <nav class="i-header-nav">
+            <ul class="i-header-nav-ul">
+                <li><a href="../index/index.html">Home</a></li>
+                <li><a href="../Taller1/figuras.html">Taller 1</a></li>
+                <li><a href="../Taller2/descuentoos.html">Taller 2</a></li>
+                <li><a href="../Taller3/promedio.html">Taller 3</a></li>
+                <li><a href="../Taller4/salarios.html">Taller 4</a></li>
+                <li><a href="../Taller Extra/extra.html">Taller 5</a></li>
+            </ul>
+        </nav>
+    </header>
+    <header class="header">
+        <h1>Análisis de tu inversión</h1>
+    </header>
+    <main class="main">
+        <section class="main-section">
+            <h1 class="main-section__title">Calculo de ganancias</h1>
+            <p class="main-section__description">Por favor llena el siguiente formulario</p>
+            <form class="main-section-form">
+                <label class="main-section-form_questions" for="dineroInvertido">
+                    <span>¿Cuánto es el monto de dinero invertido en dólares?</span>
+                    <input type="number" id="dineroInvertido">
+                </label>
+                <label class="main-section-form_questions" for="interesMensual">
+                    <span>¿Cuál es el interes mensual?</span>
+                    <input type="number" id="interesMensual">
+                </label>
+                <label class="main-section-form_questions" for="tiempoInversion">
+                    <span>¿Cuál es el tiempo de inversión en meses?</span>
+                    <input type="number" id="tiempoInversion">
+                </label>
+                <button class="main-section-form_button" type="button" onclick="calcular()">Calcular</button>
+                <section class="main-section-form_answer">
+                    <p id="p1"></p>
+                </section>
+            </form>
+        </section>
+    </main>
+    <footer>
+        
+    </footer>
+    <script src="extra.js">
+
+    </script>
+</body>
+</html>
